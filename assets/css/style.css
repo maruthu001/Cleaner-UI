@@ -1,18 +1,21 @@
 body {
-    background-color: rgb(242, 239, 239);
+    background-color: black;
     font-family: sans-serif;
-    width: 393px;
-    height: 851px;
+    width: 398px;
+    height: 790px;
     text-decoration: none;
     margin-left: 39%;
 }
 
 /* header starts here */
 body header {
-    background-color: white;
     font-family: sans-serif;
-    border-radius: 8px;
+    height: 55px;
+    background-color: rgb(242, 239, 239);
 
+}
+body p{
+    color:grey;
 }
 
 .header {
@@ -20,7 +23,7 @@ body header {
     flex-direction: row;
     align-content: center;
     justify-content: space-between;
-    margin: 30px;
+    margin: 35px;
 
 }
 
@@ -35,18 +38,23 @@ body header {
     margin-top: 10px;
 }
 
-.header p {
+.header .txt {
     font-size: 19px;
+    color: black;
 }
 
 /* header over */
 /* section starts here */
+section{
+    background-color: rgb(242, 239, 239);
+}
 section .top {
-    width: 390px;
+    width: 398px;
     background-color: white;
     display: flex;
     border-radius: 8px;
     margin-bottom: 8px;
+    height: auto;
 }
 
 section .top img {
@@ -58,6 +66,26 @@ section .top img {
 }
 
 section .top div h3 {
+    margin-top: 25px;
+
+}section .top2{
+    width: 398px;
+    background-color: white;
+    display: flex;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    height: 100px;
+}
+
+section .top2 img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 25px;
+
+}
+
+section .top2 div h3 {
     margin-top: 25px;
 
 }
@@ -74,7 +102,11 @@ section .top div h3 {
     padding: 5px;
     border-radius: 20px;
     margin-left: 10px;
+    float: right;
 
+}
+.top1{
+    width: 398px;
 }
 
 .big {
